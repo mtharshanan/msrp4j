@@ -9,7 +9,7 @@ import java.nio.charset.Charset;
 
 final class Util {
 
-    public static final String TOKEN_REGEX = "[-!#$%&'*+0-9A-Za-z^_`{|}~]";
+    public static final String TOKEN_REGEX = "[-!#$%&'*+0-9A-Za-z^_`{|}~.]";
     public static final String IDENT_REGEX = "\\p{Alnum}[-\\p{Alnum}.+%=]{3,31}";
     public static final String METHOD_REGEX = "[A-Z]+";
     public static final String UTF8TEXT_REGEX = "[\\t\u0020-\uffff]";
